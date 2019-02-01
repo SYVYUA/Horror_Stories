@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Scare_Book</string>
+    <string name="durText">Duration</string>
+    <string name="giftText">Gift</string>
+</resources>
