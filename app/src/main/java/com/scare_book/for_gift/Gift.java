@@ -1,15 +1,24 @@
 package com.scare_book.for_gift;
 
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
 import com.scare_book.R;
+import com.scare_book.duration.ListDuration;
+
+
 
 public class Gift extends AppCompatActivity{
+
     FloatingActionButton bax1,bax2,bax3,bax4,bax5,moneyBut;
     boolean isFABOpen;
+    Intent intent = null;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +36,23 @@ public class Gift extends AppCompatActivity{
             public void onClick(View v) {
                 if(!isFABOpen){
                     showFABMenu();
+                    bax1.setEnabled(true);
+                    bax1.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            intent = new Intent(Gift.this, ListDuration.class);
+                            startActivity(intent);
+                            closeFABMenu();
+                        }
+                    });
                 }else{
                     closeFABMenu();
+                    bax1.setEnabled(false);
+                    bax2.setEnabled(false);
+                    bax3.setEnabled(false);
+                    bax4.setEnabled(false);
+                    bax5.setEnabled(false);
+
                 }
             }
 
@@ -38,20 +62,23 @@ public class Gift extends AppCompatActivity{
 
     private void showFABMenu(){
         isFABOpen = true;
-        bax1.animate().translationY(-getResources().getDimension(R.dimen.standard_55));
-        bax2.animate().translationY(-getResources().getDimension(R.dimen.standard_105));
-        bax3.animate().translationY(-getResources().getDimension(R.dimen.standard_155));
-        //bax4.animate().translationY(-getResources().getDimension(R.dimen.standard_165));
-        //bax5.animate().translationY(-getResources().getDimension(R.dimen.standard_175));
+        //позиції щодо головної кнопки
+        bax1.animate().translationY(+getResources().getDimension(R.dimen.standard_55));
+        bax1.animate().translationX(+getResources().getDimension(R.dimen.standard_55));
+        bax2.animate().translationY(-getResources().getDimension(R.dimen.standard_55));
+        bax3.animate().translationX(+getResources().getDimension(R.dimen.standard_55));
+        bax4.animate().translationX(-getResources().getDimension(R.dimen.standard_55));
+        bax5.animate().translationY(+getResources().getDimension(R.dimen.standard_165));
     }
 
 
     private void closeFABMenu(){
         isFABOpen=false;
-        bax1.animate().translationY(0);
+        //ховається все в одну
+        bax1.animate().translationY(0).translationX(0);
         bax2.animate().translationY(0);
-        bax3.animate().translationY(0);
-        bax4.animate().translationY(0);
+        bax3.animate().translationX(0);
+        bax4.animate().translationX(0);
         bax5.animate().translationY(0);
 
     }

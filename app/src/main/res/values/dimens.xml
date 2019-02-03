@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="standard_55">55dp</dimen>
-    <dimen name="standard_105">105dp</dimen>
-    <dimen name="standard_155">155dp</dimen>
-    <dimen name="standard_165">165dp</dimen>
-    <dimen name="standard_175">175dp</dimen>
+    <dimen name="standard_115">105dp</dimen>
+    <dimen name="standard_165">155dp</dimen>
+    <dimen name="standard_205">205dp</dimen>
+    <dimen name="standard_275">265dp</dimen>
 
 </resources>
