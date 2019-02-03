@@ -6,9 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".for_gift.Gift">
 
-    <TextView
-        android:text="@string/giftText"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/moneybutt"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_attach_money_black_24dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bax1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_1_bax_24dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bax2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_2_bax_24dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bax3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_3_bax_24dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bax4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_4_bax_24dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bax5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_5_bax_24dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        />
+
+
 
 </RelativeLayout>
