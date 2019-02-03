@@ -1,13 +1,15 @@
-package com.scare_book;
+package com.scare_book.duration;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Gift extends AppCompatActivity {
+import com.scare_book.R;
+
+public class ListDuration extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gift);
+        setContentView(R.layout.activity_list_duration);
     }
 }

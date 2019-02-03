@@ -7,6 +7,8 @@ import android.os.Bundle;
 
 import com.hitomi.cmlibrary.CircleMenu;
 import com.hitomi.cmlibrary.OnMenuSelectedListener;
+import com.scare_book.duration.ListDuration;
+import com.scare_book.for_gift.Gift;
 
 public class MainActivity extends AppCompatActivity {
 
