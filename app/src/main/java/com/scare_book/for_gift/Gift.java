@@ -63,22 +63,23 @@ public class Gift extends AppCompatActivity{
     private void showFABMenu(){
         isFABOpen = true;
         //позиції щодо головної кнопки
-        bax1.animate().translationY(+getResources().getDimension(R.dimen.standard_55));
-        bax1.animate().translationX(+getResources().getDimension(R.dimen.standard_55));
-        bax2.animate().translationY(-getResources().getDimension(R.dimen.standard_55));
-        bax3.animate().translationX(+getResources().getDimension(R.dimen.standard_55));
-        bax4.animate().translationX(-getResources().getDimension(R.dimen.standard_55));
-        bax5.animate().translationY(+getResources().getDimension(R.dimen.standard_165));
+        bax1.animate().translationX(-getResources().getDimension(R.dimen.standard_110));
+        bax3.animate().translationX(-getResources().getDimension(R.dimen.standard_55));
+        bax3.animate().translationY(-getResources().getDimension(R.dimen.standard_55));
+        bax5.animate().translationY(-getResources().getDimension(R.dimen.standard_110));
+        bax4.animate().translationX(+getResources().getDimension(R.dimen.standard_55));
+        bax4.animate().translationY(-getResources().getDimension(R.dimen.standard_55));
+        bax2.animate().translationX(+getResources().getDimension(R.dimen.standard_110));
     }
 
 
     private void closeFABMenu(){
         isFABOpen=false;
         //ховається все в одну
-        bax1.animate().translationY(0).translationX(0);
-        bax2.animate().translationY(0);
-        bax3.animate().translationX(0);
-        bax4.animate().translationX(0);
+        bax1.animate().translationX(0);
+        bax2.animate().translationX(0);
+        bax3.animate().translationX(0).translationY(0);
+        bax4.animate().translationX(0).translationY(0);
         bax5.animate().translationY(0);
 
     }
