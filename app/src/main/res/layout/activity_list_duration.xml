@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="#CC1313"
+    android:background="#389122"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".duration.ListDuration">
@@ -13,58 +13,65 @@
         android:layout_width="378dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttons"
-        android:text="@string/button"
-        tools:text="0-1 min" />
+        android:text="@string/_0_1_min" />
     <Button
         android:id="@+id/button1_3"
         android:layout_width="378dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttons"
-        android:text="@string/button"
-        tools:text="1-3 min" />
+        android:text="@string/_1_3_min" />
     <Button
         android:id="@+id/button3_6"
         android:layout_width="378dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttons"
-        android:text="@string/button"
-        tools:text="3-6 min" />
+        android:text="@string/_3_6_min" />
     <Button
         android:id="@+id/button6_9"
         android:layout_width="378dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttons"
-        android:text="@string/button"
-        tools:text="6-9 min" />
+        android:text="@string/_6_9_min" />
     <Button
         android:id="@+id/button9_15"
         android:layout_width="378dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttons"
-        android:text="@string/button"
-        tools:text="9-15 min" />
+        android:text="@string/_9_15_min" />
 
     <Button
         android:id="@+id/button15_20"
         android:layout_width="378dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttons"
-        android:text="@string/button"
-        tools:text="15-20 min" />
+        android:text="@string/_15_20_min" />
     <Button
         android:id="@+id/button20_30"
         android:layout_width="378dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/buttons"
-        android:text="@string/button"
-        tools:text="20-30 min" />
+        android:text="@string/_20_30_min" />
 
 
 
