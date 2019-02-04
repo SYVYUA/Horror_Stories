@@ -1,15 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#CC1313"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".duration.ListDuration">
 
+    <Button
+        android:id="@+id/button0_1"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttons"
+        android:text="@string/button"
+        tools:text="0-1 min" />
+    <Button
+        android:id="@+id/button1_3"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttons"
+        android:text="@string/button"
+        tools:text="1-3 min" />
+    <Button
+        android:id="@+id/button3_6"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttons"
+        android:text="@string/button"
+        tools:text="3-6 min" />
+    <Button
+        android:id="@+id/button6_9"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttons"
+        android:text="@string/button"
+        tools:text="6-9 min" />
+    <Button
+        android:id="@+id/button9_15"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttons"
+        android:text="@string/button"
+        tools:text="9-15 min" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/durText" />
-</RelativeLayout>
+    <Button
+        android:id="@+id/button15_20"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttons"
+        android:text="@string/button"
+        tools:text="15-20 min" />
+    <Button
+        android:id="@+id/button20_30"
+        android:layout_width="378dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttons"
+        android:text="@string/button"
+        tools:text="20-30 min" />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

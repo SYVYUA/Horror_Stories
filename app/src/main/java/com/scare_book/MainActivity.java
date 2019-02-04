@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 .setOnMenuSelectedListener(new OnMenuSelectedListener() {
                     @Override
                     public void onMenuSelected(int i) {
-                        Intent intent = null;
+
                         if(i == 0){
                         intent = new Intent(MainActivity.this, ListDuration.class);
                         startActivity(intent);

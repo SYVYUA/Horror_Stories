@@ -10,14 +10,11 @@ import android.view.View;
 import com.scare_book.R;
 import com.scare_book.duration.ListDuration;
 
-
-
 public class Gift extends AppCompatActivity{
 
     FloatingActionButton bax1,bax2,bax3,bax4,bax5,moneyBut;
     boolean isFABOpen;
     Intent intent = null;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,7 +69,6 @@ public class Gift extends AppCompatActivity{
         bax2.animate().translationX(+getResources().getDimension(R.dimen.standard_110));
     }
 
-
     private void closeFABMenu(){
         isFABOpen=false;
         //ховається все в одну
@@ -81,6 +77,5 @@ public class Gift extends AppCompatActivity{
         bax3.animate().translationX(0).translationY(0);
         bax4.animate().translationX(0).translationY(0);
         bax5.animate().translationY(0);
-
     }
 }
