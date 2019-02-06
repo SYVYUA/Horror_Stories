@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scroll_container"
-    android:background="#fff524"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".history.HistoryDur01">
@@ -14,14 +14,100 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/name_hist"
-
-            android:layout_width="wrap_content"
+            android:id="@+id/name_hist1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#ffffff"
             android:gravity="start"
             android:padding="15dp"
             android:text="@string/button_1"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_2"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_3"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_4"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_5"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_6"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_7"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_8"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_9"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_10"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_11"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/name_hist12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:text="@string/button_12"
             android:textSize="18sp"/>
 
         <Space
