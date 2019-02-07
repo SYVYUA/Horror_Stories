@@ -8,8 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import android.view.View;
-
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -18,7 +16,7 @@ import com.scare_book.R;
 public class HistoryDur01 extends AppCompatActivity implements View.OnClickListener {
 
     public static int a;
-    TextView nameHist1,nameHist2,nameHist3,nameHist4,nameHist5,nameHist6,nameHist7,nameHist8,nameHist9,nameHist10,nameHist11,nameHist12;
+    //TextView nameHist1,nameHist2,nameHist3,nameHist4,nameHist5,nameHist6,nameHist7,nameHist8,nameHist9,nameHist10,nameHist11,nameHist12;
     Intent intent = null;
 
 
@@ -58,8 +56,6 @@ public class HistoryDur01 extends AppCompatActivity implements View.OnClickListe
             if(v instanceof TextView) v.setOnClickListener(this);
         }
     }
-
-
     @Override
     public void onClick(View v) {
         switch (v.getId()){

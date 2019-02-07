@@ -20,6 +20,7 @@ public class HistoryShow extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_history_show);
         scroll = findViewById(R.id.scroll_hist);
         showHist = findViewById(R.id.view_hist);
